@@ -1,6 +1,4 @@
-"""
-Messages that corresponds to the location the player is currently in and execute functions for player being there
-"""
+
 import map_layout as m
 import menu as men
 import inventory as i
@@ -10,6 +8,9 @@ playing = True
 
 
 def message():
+    """
+    Messages that corresponds to the location the player is currently in and execute functions for player being there
+    """
     while playing:
         # location description dictated by the location of the player on the map
         current_location = m.Map[m.row][m.col]

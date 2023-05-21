@@ -15,6 +15,10 @@ MaxRow = 2
 
 
 def draw_map():
+    """
+    It draws the map to be printed
+    :return:
+    """
     left_side_indices = list(range(0, 100))
     del_multiple = 1
 
@@ -28,7 +32,7 @@ def draw_map():
 
     print('\n _____________' + '_______________' * 2)
 
-    for row in range(1):
+    for x in range(1):
         print('|             ' * 2 + '|               |')
         print(f'|     {(Map[0][0])}    |  {(Map[0][1])}   |   {(Map[0][2])}   |')
         for column in range(2):

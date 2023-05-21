@@ -3,6 +3,9 @@ def movement():
     import messages as mess
     import menu as men
     while True:
+        """
+        Prints movement options according to the location of the player and prevents the player form walking off the map
+        """
         # player can input their desired direction with in the list above
         movement_choice = input(f"Choice move: ")  # player movement choices are inputted
 

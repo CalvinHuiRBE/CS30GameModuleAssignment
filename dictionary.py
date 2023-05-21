@@ -1,3 +1,4 @@
+"""The dictionary full of descriptions of the locations"""
 map_info = {
     'shed': {
         "location": "Your at the shed.",
