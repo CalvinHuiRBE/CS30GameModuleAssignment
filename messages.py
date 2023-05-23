@@ -13,7 +13,7 @@ def message():
     """
     while playing:
         # location description dictated by the location of the player on the map
-        current_location = m.Map[m.row][m.col]
+        current_location = m.map_grid[m.row][m.col]
         location_description = current_location
         if location_description == 'front-foyer':  # if the location matches the name then print
             print(dic.map_info['front-foyer']["location"])
